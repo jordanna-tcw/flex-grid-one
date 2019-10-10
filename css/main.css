@@ -108,6 +108,14 @@ body {
   height: 100%;
 }
 
+p {
+    color:#800080;
+    font-family: 'Questrial', sans-serif;
+    font-size: .75em;
+    line-height: 1.5em;
+    margin: 15%;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
@@ -118,13 +126,12 @@ body {
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   align-items: center;
-  background-color: #f16059;
-  color: #fff;
+  background-color: #fdfdfd;
   display: flex;
   font-size: 1.6em;
   height: 300px;
   justify-content: center;
-  line-height: 1.5em;
+  line-height: 1.25em;
   width: 30%;
 }
 
